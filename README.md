@@ -7,6 +7,7 @@ Eckpunkte der Software / Anforderungen, die die Software erfüllt:
 - lauffähig im internen Schulnetz (nicht für den Produktiveinsatz frei zugreifbar im Internet bestimmt)
 - Unterstützung des klassischen Verwaltungsprozesses ("Papierschnittstelle") mit einem digitalen Werkzeug, das den Ablauf begleitet
 - keine individuellen Logins, sondern rollenbasierter Login mit unterschiedlichen Daten je Veranstaltung
+- Import der Schülerdaten via flexibel formatierten csv-Dateien (wie sie aus jeder Schulverwaltungssoftware exportiert werden können)
 - Bereitstellung druckbarer Schülerlisten in ganz verschiedenen Stadien des Ablaufs
 - Verteilung der Bedienung auf viele Schultern - Einbindung der Klassenlehrer und Projektverantwortlichen zur Dateneingabe
 - Verteilung von Schülern auf Projekte nach Angabe beliebiger Wünsche
