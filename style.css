@@ -1,0 +1,387 @@
+@media all {
+	
+	body {
+		margin:0px; padding:0px;
+	}
+	
+	div#inhalt {
+		width:100%;
+	}
+	
+	@page { size:landscape; }
+	
+	a {
+		/*color:black;*/
+		text-decoration:none;
+	}
+		
+		
+	
+	div.fieldset {
+		/*background-color: white;*/
+		padding:15px; margin:5px;
+		overflow:auto;
+	}
+
+	.pagebreak {
+		page-break-after:always;
+	}
+	
+	.pagebreakb {
+		page-break-before:always;
+	}
+	
+	table.ov_table {
+		background-color:white;
+		border:3px solid black;
+		border-collapse:collapse;
+		margin:auto;
+		box-shadow:5px 6px 5px #999;
+	}
+	
+	table.ov_table td{
+		padding:2px 5px;
+		border:1px solid black;
+	}
+
+	table.ov_table th, table.ov_table td.th {	
+		padding:2px 5px;
+		border:3px solid black;
+	}
+	
+	td {
+		page-break-inside:avoid;
+	}
+	
+	tr.tr_class_0 td input, tr.tr_class_1 td input, tr.tr_class_0 td select, tr.tr_class_1 td select {
+		background-color:transparent;
+		text-align:center;
+	}
+
+	tr.tr_class_0 td textarea, tr.tr_class_1 td textarea {
+		background-color:transparent;
+	}
+	
+	li {
+		
+		text-align:left;
+	
+	}
+
+	.invisible { display:none; }
+	
+	.clear { clear:both; }
+	
+	
+	.b { font-weight:bold; }
+	.cb { color:#009; }
+	.cg { color:#090; }
+	.cr { color:#900; }
+}
+
+@media screen {
+	
+	input[readonly] {
+		background-color:#ddd !important; 
+		/*text-align:center;*/
+	}
+	
+	div#logobar {
+		width:100%;
+		height:70px;
+		background-image:url(./vorlagen/logoleiste.png);
+		background-repeat:repeat-y;
+		background-position:right;
+		background-color:#000044;
+		overflow:hidden;
+		border-bottom:4px groove #999;
+	}
+	
+	div#bottom {
+		width:96%;
+		height:18px;
+		margin:0px auto;
+		background-image:url(./vorlagen/logoleiste.png);
+		background-repeat:repeat-y;
+		background-position:right;
+		background-color:#000044;
+		overflow:hidden;
+		border:5px groove #999;
+		border-radius: 20px;
+		font-size:14px;
+		padding:8px 10px;
+	}
+	
+	div#bottom a {
+		padding:2px;
+		color:white;
+		background-color:transparent;
+	}
+	
+	div#bottom a:hover {
+		color:#009;
+		background-color:white;
+	}
+	
+	div#logobar h1, div#logobar p, div#bottom h1, div#bottom p {
+		color:white;
+		margin:2px 5px;
+	}
+	
+	div#logobar img, div#bottom img {
+		height:70px;
+		margin:-2px -5px 0px 5px;
+	}
+	
+	div.fieldset div.fieldset div.fieldset {
+		/*border-color: #11ff00;*/
+	}
+
+	div.fieldset div.fieldset {
+		/*border-color: #0070aa;*/
+	}
+
+	div.fieldset {
+		border-color: #999;
+		border-width: 5px;
+		border-radius: 20px;
+		border-style: groove;
+		background-color: #ddd;
+		padding:15px;
+	}
+	
+	div.fieldset h2 {
+		text-align:center;
+		margin:-20px -15px 30px;
+		padding:5px 0px;
+		color:white;
+		border-color: #999;
+		border-width: 0px 0px 5px 0px;
+		border-radius: 15px 15px 0px 0px;
+		border-style: groove;
+		background-image:url(./vorlagen/headerleiste.png);
+		background-repeat:repeat-y;
+		background-position:right;
+		background-color:#000044;
+	
+	}
+		
+	div.fieldset_td div.fieldset {
+		height:300px;
+	}
+	
+	div.fieldset_td {
+		display:table-cell;
+		border-collapse:separate;
+	}
+	
+	div.fieldset_tr {
+		display:table-row;
+	}
+	
+	div.fieldset fieldset legend {
+		border:1px solid black;
+		border-radius:5px;
+		background-color:white;
+		margin-left:10px;
+		box-shadow:3px 4px 5px #999;
+	}
+	
+	div.fieldset fieldset {
+		background-color:white;
+		border:1px solid black;
+		border-radius:10px;
+		margin:20px 5px;
+		box-shadow:5px 6px 5px #999;
+	}
+	
+	table.st3c {
+		border-collapse:collapse;
+		margin-left:30px;
+	}
+	
+	table.st3c tr td {
+		width:150px;
+		text-align:center;
+		vertical-align:center;
+	}
+	
+	table.st3c tr td:first-child {
+		width:200px;
+		text-align:right;
+	}
+	
+	table.st3c tr td:last-child {
+		width:300px;
+		border-top:1px solid grey;
+		border-bottom:1px solid grey;
+		text-align:left;
+	}
+	
+	
+	table.st3c td {
+		padding:5px 15px;
+		border-top:1px solid grey;
+		border-bottom:1px solid grey;
+	}
+	
+	table.st3c input[type=text], table.st3c select, table.st3c textarea {
+		width:200px;
+	}
+	
+	ul.portal {
+		list-style-image:none;
+		padding:0px;
+	}
+	
+	ul.portal li {
+		display:block;
+		border:1px solid grey;
+		border-radius:5px;
+		padding:5px;
+		margin:5px;
+		background-color:white;
+	}
+	
+	ul.portal li:hover {
+		background-color:#ddf !important;
+		cursor:pointer;
+	}	
+	
+	ul.portal li a, ul.portal li a:hover, ul.portal li a:active, ul.portal li a:visited {
+		color:black;
+	}
+	
+	h3 {
+	
+		text-shadow:2px 2px 1px #DDD;
+	
+	}
+	
+	#hints {
+		
+		padding-top:0px; padding-bottom:0px;
+	
+	}
+	
+	#hints ul {
+		
+		margin:0px; padding-top:0px; padding-bottom:0px;
+	
+	}
+	
+	#nav {
+	
+		color:white;
+		width:100%;
+		overflow:auto;
+		background-image:url(./vorlagen/logoleiste.png);
+		background-repeat:repeat-y;
+		background-position:right;
+		background-color:#000044;
+		border-bottom:4px groove #999;
+	
+	}
+	
+	#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6, #nav p, #nav form  {
+		
+		margin:2px 5px;
+		display:inline-block;
+		vertical-align:bottom;
+	
+	}
+	
+	p#auth {
+		
+		width:200px;
+		overflow:hidden;
+		text-align:center;
+	
+	}
+	
+	input#bt_logout {
+	
+		width:200px;
+		display:inline-block;
+		margin:2px 5px;
+	
+	}
+	
+	input[type=text], table.ed_table select.select_offer {
+	
+		width:110px;
+	
+	}
+	
+	input.text_small {
+		
+		width:4em;
+		
+	}
+		
+	body {
+		background-color: #ffffff;
+	}
+
+	tr.tr_class_0 {
+		background-color:#ddf;
+		text-align:center;
+	}
+
+	tr.tr_class_1 {
+		background-color:#fff;
+		text-align:center;
+	}
+	
+	tr.th td {
+		border-top-width:3px;
+		border-bottom-width:3px;
+	}
+	
+	.noscreen {
+		display:none;
+	}
+	
+	ul.pClass li, li.pClass, ul.pAllClass li, li.pAllClass, ul.pOffer li, li.pOffer, ul.pAllOff li, li.pAllOff, ul.pOv li, li.pOv, ul.pTeach li, li.pTeach  {
+		border-width:4px !important;
+		border-style:groove !important;
+	}
+	
+	ul.pClass li, li.pClass {
+		border-color:#ff8 !important;
+	}
+	
+	td.pClass { background-color:#ff8; }
+	
+	ul.pAllClass li, li.pAllClass {
+		border-color:#fc8 !important;
+	}
+
+	td.pAllClass { background-color:#fc8; }
+	
+	ul.pOffer li, li.pOffer {
+		border-color:#8ff !important;
+	}
+
+	td.pOffer { background-color:#8ff; }
+	
+	ul.pAllOff li, li.pAllOff{
+		border-color:#8cf !important;
+	}
+	
+	td.pAllOff { background-color:#8cf; }
+	
+	ul.pOv li, li.pOv {
+		border-color:#0f8 !important;
+	}
+
+	td.pOv { background-color:#0f8; }
+	
+	ul.pTeach li, li.pTeach {
+		border-color:#f8c !important;
+	}
+
+	td.pTeach { background-color:#f8c; }
+	
+	
+}

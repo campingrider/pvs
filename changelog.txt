@@ -1,0 +1,29 @@
+# Version 1.3 #				22. Dezember 2016
++++++++++++++++
+	- Update: Informationen im Impressum wurden angepasst.
+
+
+# Version 1.2 #				8. Januar 2015
++++++++++++++++
+	- Verbesserung: Die Zuordnungsfunktion für die automatische Angebotszuteilung wurde verbessert
+					Es findet nun ein zweistufiger Prozess statt.
+					Dieser erfüllt die Anforderungen schülerfreundlicher und nimmt insbesondere 
+					darauf Rücksicht, ob ein Angebot unproblematisch ist, d.h. ob potenziell
+					genügend Plätze verfügbar sind, um alle Schüler mit Wunsch aufzunehmen.
+					Problematische Angebote werden jetzt nach der durch die Problematik vor-
+					gegebenen Prioritätenverteilung abgearbeitet: Die problematischsten Angebote
+					erfahren den Zuteilungsprozess früher
+	- Update: Die technischen Informationen im Handbuch wurden entsprechend angepasst.
+
+
+# Version 1.1 #				15. Januar 2014
++++++++++++++++
+	- Problem behoben: Schülermanagement und Angebotsmanagement konnten nicht auf Schülerverteilung 
+	                   zugreifen
+	- Feature ergänzt: Eventmanager kann nun einzelne Ansichten und Optionen für die beiden darunter 
+	                   liegenden Rechteebenen freischalten oder sperren
+
+
+# Version 1.0 #				5. Dezember 2013
++++++++++++++++
+	- vorläufige Fertigstellung des Systems

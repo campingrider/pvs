@@ -1,0 +1,13 @@
+Hinweise zur Schnittstelle Schuldatenbank
+-----------------------------------------
+
+* Kodierung für alle Dateien: UTF-8 ohne BOM
+* Spalten zu den CSV-Dateien (lehrer.csv, schueler.csv) angeben in colinfo.ini
+* Ergänzungen einzelner Lehrerdaten in lehrerinfo.ini angeben
+	VORSICHT: Angaben in lehrerinfo.ini überschreiben andere Angaben (z.B. aus lehrer.csv)
+* Mathekurse in der Kursstufe:
+	Jeder Kurs benötigt eine csv-Datei mit seinen Mitgliedern
+	Der Name der CSV-Datei entspricht dem "Klassennamen":
+		Erlaubt ist z.B. K1M1 oder K2M4, d.h. jeweils K1/K2/K3/K4 und M1/M2/M3/M4/M5/M6/M7/M8/M9 je nach Mathekurs
+	Die erste Zeile der CSV-Datei enthält nur den Nachnamen oder das Kürzel des Kurslehrers
+	Dann folgen alle Kursmitglieder mit Nachname;Vorname

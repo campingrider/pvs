@@ -1,0 +1,6 @@
+Hintergrund Logoleiste:
+	Blau dunkel: 004
+	Blau hell: 3bf
+Hintergrund Headerleiste:
+	BLau dunkel: 004
+	Blau hell: 44b

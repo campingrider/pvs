@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !/pvs/vorlagen/
+RewriteCond %{REQUEST_URI} !/(style.css|tools.js|favicon.ico|updateclient.php)
+RewriteCond %{REQUEST_URI} !/pvs/index.php$
+RewriteRule (.*)			/pvs/index.php
+
+<Files "*.ini">
+    Require all denied
+</Files>
