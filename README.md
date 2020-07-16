@@ -1,4 +1,4 @@
-# Projektverwaltungssystem für Schulen (PvS)
+# Projektverteilungssystem für Schulen (PvS)
 
 Dieses Projekt entstand während meines Praxissemesters am Margarethe-Steiff-Gymnasium in Giengen. Es war einige Jahre lang für die Verwaltung von Projektangeboten (ursprünglich Wintersporttag, aber auch Projekttage u.ä.) im Produktiveinsatz. Ursprünglich closed source und mit proprietärer Einzellizenz versehen, steht dieses Werk nun unter GPLv3 und darf gerne verbreitet und/oder verändert werden.
 
